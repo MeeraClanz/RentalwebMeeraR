@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body
+{
+    height: 100%;   
+    width: 100%;
+}
+@font-face {
+    font-family: poppinssemibold;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+.clearfix
+{
+    clear: both;
+}
+.container
+{
+   width: 1263px;
+}
+.part1
+{
+    width: 50%;
+    height: 569px;
+    background-color: #f3ead4;
+    position: relative;
+    float: left;
+}
+.centered 
+{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #1d0e1a;
+}
+.screen
+{
+    position: absolute;
+    width: 631px;
+    height: 348px;
+    bottom: 0;
+}
+.part2
+{
+    width: 50%;
+    float: right;
+    padding: 100px;
+}
+.text1
+{
+    color: #000000;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    
+}
+input 
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+input[type=text], input[type=password] 
+{
+    color: #333333;
+    font-size: 16px;
+    padding: 14px 0px;
+}
+
+label
+{
+    font-size: 13px;
+    color: #999999;
+}
+.button 
+{
+    background-color: #772360;
+    padding: 13px 0;
+    margin: 26px 0;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 100%;
+}
+.forget
+{
+    float: right;
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+}
+.dont
+{
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+.create
+{
+    color: #772360;
+    font-size: 14px;
+    font-weight: bold;
+}
