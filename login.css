@@ -50,17 +50,14 @@ html, body
     width: 50%;
     float: right;
     padding: 100px;
+    position: relative;
 }
 .text1
 {
     color: #000000;
     font-size: 32px;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    
+    line-height: 1.5;  
 }
 input 
 {
@@ -74,13 +71,24 @@ input[type=text], input[type=password]
 {
     color: #333333;
     font-size: 16px;
-    padding: 14px 0px;
 }
 
 label
 {
     font-size: 13px;
     color: #999999;
+}
+.icon
+{
+    position: relative;
+}
+.eye
+{
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+    width: 10px;
+    height: 10px;
 }
 .button 
 {
