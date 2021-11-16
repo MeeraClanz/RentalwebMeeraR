@@ -67,7 +67,7 @@ input
     display: inline-block;
     border-bottom: 1px solid #ccc;
 }
-input[type=text], input[type=password] 
+input[type=text], input[type=password]  
 {
     color: #333333;
     font-size: 16px;
