@@ -13,18 +13,23 @@ html, body
     font-family: poppinssemibold;
     src: url(Poppins/Poppins-SemiBold.ttf);
 }
+@font-face {
+    font-family: playregular;
+    src: url(Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
 .clearfix
 {
     clear: both;
 }
 .container
 {
-   width: 1263px;
+    width: 100%;
+    height: 100vh;
 }
 .part1
 {
     width: 50%;
-    height: 569px;
+    height: 100%;
     background-color: #f3ead4;
     position: relative;
     float: left;
@@ -37,6 +42,7 @@ html, body
     transform: translate(-50%, -50%);
     font-size: 35px;
     color: #1d0e1a;
+    font-family: playregular;
 }
 .screen
 {
@@ -86,7 +92,7 @@ label
 {
     position: absolute;
     right: 3px;
-    bottom: 2px;
+    bottom: 23px;
     width: 10px;
     height: 10px;
 }
