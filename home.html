@@ -3,6 +3,17 @@
     <head>
         <title>home</title>
         <link rel="stylesheet" type="text/css" href="home.css"> 
+        <link rel="stylesheet" type="text/css" href="login.css"> 
+        <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
     </head>
 <body>
     <div class="container">
@@ -28,12 +39,40 @@
                     <p class="rent">Rent</p>
                     <p class="rent1">Buy</p>
                     <button class="search"> <img src="search1.png" class="searchimg"><span class="text2">Search</span></button>
-
                 </div>
             </div>       
         </div>
-     
-        <div class="section2"></div>
-    </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="box1">
+                        <img src="bus.png" class="bus">
+                        <h6 class="pack">Packers & Movers</h6>
+                        <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+                    </div>
+                    <div class="box1">
+                        <img src="bus.png" class="bus">
+                        <h6 class="pack">Packers & Movers</h6>
+                        <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+                    </div>
+                    <div class="box1">
+                        <img src="bus.png" class="bus">
+                        <h6 class="pack">Packers & Movers</h6>
+                        <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+                    </div>
+                </div>
+                <script>
+                    $('.owl-carousel').owlCarousel({
+                     loop: true,
+                       items: 4, // Select Item Number
+                       autoplay:true,
+                       dots: false,
+                       nav: true,
+                       navText: ["<i class=' fa fa-chevron-left'></i>","<i class=' fa fa-chevron-right'></i>"],
+               
+               })
+                   </script>
+               
+        </div>
+        
+   
 </body>
 </html>

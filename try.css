@@ -222,16 +222,3 @@ html, body
     text-align: left;
     margin: 11px 14px;
 }
-.owl-prev
-{
-    position:absolute;
-    left: -5%;
-    top: 50%;
-}
-
-.owl-next
-{
-    position:absolute;
-    right: -5%;
-    top: 50%;
-}

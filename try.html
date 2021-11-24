@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home</title>
+        <link rel="stylesheet" type="text/css" href="home.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="section1">
+            <div class="left">
+                <img src="rento.png" class="rento">
+                <p class="centered">Easiest way <br> to search a villa <br> for rent.</p>
+                <p class="product">Product crafted by Clanizon.</p>
+            </div>
+            <div class="right">
+                <button class="login">Login</button>
+                <img src="home.png" class="screen">
+            </div> 
+            <div class="searchbox">
+                <div class="left1">
+                    <img src="locate.png" class="locate">
+                    <p class="madurai">Madurai</p>
+                    <img src="path.png" class="path">
+                    <div class="Rectangle"></div>
+                </div>
+                <p class="text">Search for locality, landmark, project or builder</p>
+                <div class="right1">
+                    <p class="rent">Rent</p>
+                    <p class="rent1">Buy</p>
+                    <button class="search"> <img src="search1.png" class="searchimg"><span class="text2">Search</span></button>
+                </div>
+            </div>       
+        </div>
+        <div id="slider" class="owl-carousel">
+        <div class="section2">
+            
+            <div class="box1">
+                <img src="bus.png" class="bus">
+                <h6 class="pack">Packers & Movers</h6>
+                <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+            </div>
+            <div class="box1">
+                <img src="bus.png" class="bus">
+                <h6 class="pack">Packers & Movers</h6>
+                <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+            </div>
+            <div class="box1">
+                <img src="bus.png" class="bus">
+                <h6 class="pack">Packers & Movers</h6>
+                <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+            </div>
+            <div class="box1">
+                <img src="bus.png" class="bus">
+                <h6 class="pack">Packers & Movers</h6>
+                <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+            </div>
+        
+    </div>
+</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('#slider').owlCarousel({
+                loop:true,
+                margin:15,
+                nav:flase,
+                autoplay: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:4
+                    }
+                }
+        })
+    </script>
+</body>
+</html>
