@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>home</title>
-        <link rel="stylesheet" type="text/css" href="home.css"> 
-        <link rel="stylesheet" type="text/css" href="login.css"> 
+        <link rel="stylesheet" href="home.css">
         <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
 
 <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
@@ -14,6 +12,7 @@
 <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
 
 <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+<script src="slick.js"></script>
     </head>
 <body>
     <div class="container">
@@ -42,37 +41,46 @@
                 </div>
             </div>       
         </div>
-                <div class="owl-carousel owl-theme">
-                    <div class="box1">
-                        <img src="bus.png" class="bus">
-                        <h6 class="pack">Packers & Movers</h6>
+        <div class="section2">
+            <div class="owl-carousel owl-theme">
+                    <div class="box">
+                        <img src="bus1.png" class="bus"><br><br>
+                        <h6 class="pack">Packers & Movers</h6><br>
                         <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
                     </div>
-                    <div class="box1">
-                        <img src="bus.png" class="bus">
-                        <h6 class="pack">Packers & Movers</h6>
+                    <div class="box">
+                        <img src="bus2.png" class="bus"><br><br>
+                        <h6 class="pack">Packers & Movers</h6><br>
                         <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
                     </div>
-                    <div class="box1">
-                        <img src="bus.png" class="bus">
-                        <h6 class="pack">Packers & Movers</h6>
+                    <div class="box">
+                        <img src="bus3.png" class="bus"><br><br>
+                        <h6 class="pack">Packers & Movers</h6><br>
                         <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
                     </div>
-                </div>
-                <script>
-                    $('.owl-carousel').owlCarousel({
-                     loop: true,
-                       items: 4, // Select Item Number
-                       autoplay:true,
-                       dots: false,
-                       nav: true,
-                       navText: ["<i class=' fa fa-chevron-left'></i>","<i class=' fa fa-chevron-right'></i>"],
-               
-               })
-                   </script>
-               
+                    <div class="box">
+                        <img src="bus2.png" class="bus"><br><br>
+                        <h6 class="pack">Packers & Movers</h6><br>
+                        <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+                    </div>
+                    <div class="box">
+                        <img src="bus3.png" class="bus"><br><br>
+                        <h6 class="pack">Packers & Movers</h6><br>
+                        <p class="star">5-star rated home<br>shifting service for<br>smooth moveins</p>
+                    </div>
+            </div>
         </div>
-        
-   
+            <script>
+                $('.owl-carousel').owlCarousel({
+                 loop: true,
+                   items: 4, // Select Item Number
+                   autoplay:true,
+                   dots: false,
+                   nav: true,
+                   navText: ["<i class=' fa fa-chevron-left'></i>","<i class=' fa fa-chevron-right'></i>"],
+           
+                })
+            </script> 
+    </div>   
 </body>
 </html>
